@@ -1,0 +1,464 @@
+.analyticWrapper {
+    width: 80%;
+    margin: 0 auto;
+    .assetMusicWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .titleinfoWrapper {
+        width: 35%;
+        position: relative;
+        padding: 100px 20px 0 20px;
+        // margin: 0 auto;
+  
+        .titleIcon {
+          position: absolute;
+          display: flex;
+          align-items: center;
+          left: 15%;
+          top: 60px;
+          background-color: #ffd91d;
+          border-radius: 10px;
+          width: 30%;
+  
+          text-align: center;
+          // margin: 0 auto;
+          .musicIconWrapper {
+            padding: 10px;
+            margin: 0 auto;
+          }
+        }
+        .beginsIcon {
+          position: absolute;
+          display: flex;
+          align-items: center;
+          left: 15%;
+          top: 60px;
+  
+          background-color: #ff00ff;
+          border-radius: 10px;
+          width: 30%;
+          .musicIconWrapper {
+            padding: 10px;
+            margin: 0 auto;
+          }
+        }
+        .endIcon {
+          position: absolute;
+          display: flex;
+          align-items: center;
+          left: 15%;
+          top: 60px;
+  
+          background-color: #12c901;
+          border-radius: 10px;
+          width: 30%;
+  
+          .musicIconWrapper {
+            padding: 10px;
+            margin: 0 auto;
+          }
+        }
+      }
+      .assetInnerWrapper {
+        //   border: 1px solid #4d4d4f;
+        border-radius: 11px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 0 0 0;
+  
+        .title {
+          font-weight: bold;
+          padding-top: 10px;
+        }
+        .assetinformation {
+          font-weight: 500;
+          // color: #6d6d6f;
+          text-align: center;
+          padding: 10px;
+          height: 70px;
+        }
+        .assetInfoBtnWrapper {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          padding: 20px 20px;
+          justify-content: space-between;
+          button {
+            // border-style: none;
+            border: 1px solid #27272a;
+            border-radius: 15px;
+            padding: 0 12px;
+            background-color: transparent;
+  
+            color: #27272a;
+            font-weight: 500;
+            margin: 0 10px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  .analyticDescripWrapper {
+    width: 90%;
+    margin: 0 auto;
+    .assetMusicWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .titleinfoWrapper {
+        width: 100%;
+        position: relative;
+        padding: 100px 20px 0 20px;
+        // margin: 0 auto;
+  
+        .titleIcon {
+          position: absolute;
+          display: flex;
+          align-items: center;
+          left: 22%;
+          top: 40px;
+  
+          border-radius: 10px;
+          width: 55%;
+          text-align: center;
+          // margin: 0 auto;
+          .musicIconWrapper {
+            // padding: 50px 10px;
+            margin: 0 auto;
+            background-size: cover;
+            height: 112px;
+            background-repeat: no-repeat;
+            width: 100%;
+            border-radius: 11px;
+            opacity: 0.5;
+            background-image: url("https://www.brightview.com/sites/default/files/styles/optimized/public/2017-12/Education-Landscape-Services_1.jpg?itok=lFAMTuYV");
+          }
+          h4 {
+            position: absolute;
+            color: black;
+            font-size: 17px;
+            font-weight: bold;
+            left: 14%;
+          }
+        }
+        .beginsIcon {
+          position: absolute;
+          display: flex;
+          align-items: center;
+          left: 25%;
+          top: 20px;
+  
+          background-color: #c1272d;
+          border-radius: 10px;
+          width: 50%;
+          .musicIconWrapper {
+            padding: 10px;
+            margin: 0 auto;
+          }
+        }
+        .endIcon {
+          position: absolute;
+          display: flex;
+          align-items: center;
+          left: 25%;
+          top: 20px;
+  
+          background-color: #202022;
+          border-radius: 10px;
+          width: 50%;
+  
+          .musicIconWrapper {
+            padding: 10px;
+            margin: 0 auto;
+          }
+        }
+        .pastPollsWrapper {
+          .pastPollsLabel {
+            display: flex;
+            justify-content: center;
+            padding: 30px;
+            font-weight: 500;
+          }
+          .pastPollsPics {
+            display: flex;
+            // padding: 0 70px;
+            justify-content: space-between;
+  
+            .pastPollsPic {
+              width: 30%;
+              height: 150px;
+              position: relative;
+              .pastPollsPicsWrapper {
+                width: 100%;
+                height: 100%;
+                border: 1px solid #6666;
+                border-radius: 10px;
+                opacity: 0.5;
+                margin: 0 auto;
+                justify-content: space-between;
+  
+                background-repeat: no-repeat;
+                // width: 100%;
+  
+                background-image: url("https://www.brightview.com/sites/default/files/styles/optimized/public/2017-12/Education-Landscape-Services_1.jpg?itok=lFAMTuYV");
+              }
+              span {
+                position: absolute;
+                display: inline-block;
+                top: 62px;
+                left: 24%;
+                font-weight: 700;
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+      
+      .divider {
+        height: 1px;
+        width: 20%;
+        margin: 0 auto;
+        background-color: #524c4c;
+        // margin: 10px;
+        padding: 0px 100px;
+      }
+    }
+  }
+  .activeListWrapper {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 80%;
+    opacity: 0.7;
+    .activeList {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .activeListWrapper {
+        margin: 10px 20px;
+        width: 50%;
+        padding: 50px 10px;
+        position: relative;
+        .activeAvatar {
+          position: absolute;
+          top: -4%;
+          left: 15%;
+          right: 12%;
+        }
+        .activeDetail {
+          display: flex;
+          flex-direction: column;
+          width: 98%;
+          height: 50%;
+          border: 1px solid #4d4d50;
+          border-radius: 10px;
+          padding: 10px 25px;
+          align-items: center;
+          .phone {
+            font-weight: 700;
+            color: #2b2b2e;
+            font-size: 14px;
+            padding-top: 20px;
+          }
+          .label {
+            font-weight: bold;
+            color: #2b2b2e;
+            // text-align: center;
+            align-items: center;
+            display: flex;
+            // padding-right: 10px;
+            padding-top: 50px;
+            //   padding-left: 70px;
+          }
+          .hideBtn {
+            margin:  auto ;
+  
+            button {
+              border-style: none;
+              border: 1px solid #27272a;
+              border-width: 1px;
+              font-weight: 500;
+              font-size: 11px;
+              padding: 0px 13px;
+              border-radius: 14px;
+              background-color: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+  .analyticWrapper1 {
+    width: 80%;
+    margin: 0 auto;
+    .assetMusicWrapper1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .titleinfoWrapper1 {
+        width: 100%;
+        position: relative;
+        padding: 100px 20px 0 20px;
+        // margin: 0 auto;
+  
+        .titleIcon1 {
+          position: absolute;
+          display: flex;
+          align-items: center;
+          left: 10%;
+          top: 60px;
+          background-color: #0ecd21;
+          border-radius: 10px;
+          width: 20%;
+  
+          text-align: center;
+          // margin: 0 auto;
+          .musicIconWrapper1 {
+            padding: 10px;
+            margin: 0 auto;
+          }
+        }
+        
+      }
+      .assetInnerWrapper1 {
+        //   border: 1px solid #4d4d4f;
+        border-radius: 11px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 0 0 0;
+        background-color: #ff00b3;
+  
+        .title1 {
+          font-weight: bold;
+          padding-top: 10px;
+        }
+        .assetinformation1 {
+          font-weight: 500;
+          // color: #6d6d6f;
+          text-align: center;
+          padding: 10px;
+          height: 70px;
+        }
+        .assetInfoBtnWrapper1 {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          padding: 20px 20px;
+          justify-content: space-between;
+          button {
+            // border-style: none;
+            border: 1px solid #27272a;
+            border-radius: 15px;
+            padding: 0 12px;
+            background-color: transparent;
+  
+            color: #27272a;
+            font-weight: 500;
+            margin: 0 10px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  
+  .analyticWrapper2 {
+    width: 80%;
+    margin: 0 auto;
+    .assetMusicWrapper2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .titleinfoWrapper2 {
+        width: 100%;
+        position: relative;
+        padding: 100px 20px 0 20px;
+        // margin: 0 auto;
+  
+        .titleIcon2 {
+          position: absolute;
+          display: flex;
+          align-items: center;
+          left: 70%;
+          top: 60px;
+          background-color: #0e1ecd;
+          border-radius: 10px;
+          width: 20%;
+  
+          text-align: center;
+          // margin: 0 auto;
+          .musicIconWrapper2 {
+            padding: 10px;
+            margin: 0 auto;
+          }
+        }
+        .beginsIcon2 {
+          position: absolute;
+          display: flex;
+          align-items: center;
+          left: 70%;
+          top: 60px;
+  
+          background-color: #ff0000;
+          border-radius: 10px;
+          width: 20%;
+          .musicIconWrapper2 {
+            padding: 10px;
+            margin: 0 auto;
+          }
+        }
+      }
+      .assetInnerWrapper2 {
+        //   border: 1px solid #4d4d4f;
+        border-radius: 11px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        width: 100%;
+        display: flex;
+        // align-items: center;
+        flex-direction: column;
+        padding: 5px 10px;
+        // background-color: #ff00b3;
+  
+        .title2 {
+          font-weight: bold;
+          // padding-top: 10px;
+        }
+        .assetinformation2 {
+          font-weight: 500;
+          // color: #6d6d6f;
+          text-align: center;
+          padding: 10px;
+          height: 70px;
+        }
+        .assetInfoBtnWrapper2 {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          padding: 20px 20px;
+          justify-content: space-between;
+          button {
+            // border-style: none;
+            border: 1px solid #27272a;
+            border-radius: 15px;
+            padding: 0 12px;
+            background-color: transparent;
+  
+            color: #27272a;
+            font-weight: 500;
+            margin: 0 10px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  

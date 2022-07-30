@@ -1,0 +1,217 @@
+// .previewWrapper {
+//   .previewInnerWrapper {
+//     padding: 0 0 40px 0;
+//     width: 70%;
+//     margin: 0 auto;
+//     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     // border: 1px solid #6666;
+//     // box-shadow: 10px;
+//     border-radius: 15px;
+//     // background-image: linear-gradient(to bottom left, #014c9c, #e9eff6);
+//     background-color: #fff;
+//     .header {
+//       padding: 70px 0;
+//       h3 {
+//         color: white;
+//         text-align: center;
+//       }
+//     }
+//     .presidents {
+//       display: flex;
+//       justify-content: space-around;
+//       width: 80%;
+//       margin: 0 auto;
+//       .presidentProfile {
+//         width: 27%;
+
+//         border-radius: 15px;
+//         position: relative;
+//         .presidentProfPic {
+//           position: absolute;
+//           top: 10%;
+//           left: 33%;
+//           //   left: auto;
+//           //   right: auto;
+//         }
+//         .presidentProfileWrapper {
+//           background-color: white;
+//           border-radius: 15px 15px 0 0;
+//           padding: 35px 0;
+//         }
+//         .presidentNameWrapper {
+//           display: flex;
+//           flex-direction: column;
+//           border-radius: 0 0 15px 15px;
+//           background-color: #27272a;
+//           padding-bottom: 30px;
+//           span {
+//             color: white;
+//             margin: 0 auto;
+//             padding: 30px 0 70px 0;
+//             font-weight: 500;
+//             font-size: 12px;
+//           }
+//           button {
+//             margin: 0 auto;
+//             padding: 2px 13px;
+//             border-style: none;
+//             font-size: 11px;
+//             outline: none;
+//             background-color: white;
+//             border-radius: 7px;
+//             font-weight: 700;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+.cohortsWrapper {
+  .InnerWrapper {
+    width: 85%;
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 30px 50px;
+
+    .search {
+      // display: flex;
+      // justify-content: flex-end;
+      // margin-left: 30%;
+      span {
+        position: absolute;
+        margin-left: 3%;
+        font-size: 14px;
+        color: #4d4d50;
+
+      }
+      div {
+        border-bottom: 1px solid #f0f2f5;
+        border-width: 2px;
+        margin-left: 20%;
+        width: 50%;
+
+        input {
+          border-style: none;
+          outline: none;
+        }
+        ::-webkit-input-placeholder {
+          color: #cccccc;
+          font-weight: 500;
+          font-size: 12px;
+          
+        }
+      }
+    }
+    .cohortsListWrapper {
+      display: flex;
+      flex-direction: column;
+      .cohortsList {
+        display: flex;
+        // justify-content: space-between;
+        .cohortsListWrapper {
+          margin: 0 20px;
+          width: 40%;
+          padding: 50px 10px;
+          position: relative;
+          .cohortsAvatar {
+            position: absolute;
+            top: 2%;
+
+            left: 12%;
+            right: 12%;
+          }
+          .cohortsDetail {
+            display: flex;
+            flex-direction: column;
+            width: 98%;
+            border: 1px solid #4d4d50;
+            border-radius: 10px;
+            padding: 10px 25px;
+            // align-items: center;
+            .phone {
+              font-weight: 500;
+              color: #2b2b2e;
+              font-size: 11px;
+              padding-top: 30px;
+            }
+            .label {
+              font-weight: bold;
+              color: #2b2b2e;
+              text-align: right;
+              // padding-right: 8px;
+              //   padding-left: 70px;
+            }
+            .hideBtn {
+              margin: 20px auto;
+
+              button {
+                border-style: none;
+                border: 1px solid #27272a;
+                border-width: 2px;
+                font-weight: 500;
+                font-size: 11px;
+                padding: 0px 13px;
+                border-radius: 14px;
+                background-color: transparent;
+              }
+            }
+            .hideBtn2 {
+              margin: auto 10px auto;
+
+              button {
+                border-style: none;
+                border: 1px solid #27272a;
+                border-width: 2px;
+                font-weight: 500;
+                font-size: 11px;
+                padding: 0px 13px;
+                border-radius: 14px;
+                background-color: transparent;
+              }
+            }
+            .Btn1 {
+              // margin: 20px auto  auto;
+              justify-content: flex-end;
+              margin-left: auto;
+            }
+            .Btn2 {
+              // margin: 20px auto  auto;
+              justify-content: flex-start;
+              position: absolute;
+              margin: 85px auto;
+            }
+          }
+        }
+      }
+      // .loadMore {
+      //   display: flex;
+      //   justify-content: center;
+      //   span {
+      //     text-align: center;
+      //     font-size: 11px;
+      //     font-weight: bolder;
+      //   }
+      // }
+      .footer {
+        margin: auto;
+
+        button {
+          border-style: none;
+          border: 1px solid #27272a;
+          border-width: 2px;
+          font-weight: 500;
+          font-size: 11px;
+          padding: 0px 13px;
+          border-radius: 14px;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,205 @@
+.mypageWrapper {
+  margin-bottom: 20px;
+  .bannerProfileWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+    .bannerWrapper {
+      display: flex;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      align-items: center;
+      text-align: center;
+      border: 1px solid #6666;
+      width: 100%;
+      border-radius: 15px;
+      justify-content: center;
+      padding: 20px 0;
+
+      background-repeat: no-repeat;
+      // width: 100%;
+
+      // background-image: url("https://www.brightview.com/sites/default/files/styles/optimized/public/2017-12/Education-Landscape-Services_1.jpg?itok=lFAMTuYV");
+      h4 {
+        font-weight: bolder;
+        font-size: large;
+      }
+    }
+    .profilepic {
+      position: absolute;
+      bottom: 0;
+      left: 3%;
+    }
+    .profile {
+      display: flex;
+      justify-content: space-between;
+      .profileDetails {
+        padding-left: 150px;
+        display: flex;
+        flex-direction: column;
+        .profileName {
+          font-weight: 500;
+        }
+        .profession {
+          color: #344767;
+          font-weight: 500;
+          font-size: smaller;
+        }
+      }
+      .socialIcons {
+        display: flex;
+        padding: 10px 0;
+
+        span {
+          padding: 0 6px;
+        }
+      }
+    }
+  }
+  .bioWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+    .bioInnerWrapper {
+      display: flex;
+      //   align-items: center;
+      //   border: 1px solid #6666;
+      border-radius: 15px;
+      margin-top: 20px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      .videoWrapper {
+        width: 60%;
+        // height: 500px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        border-radius: 15px 0 0 15px;
+
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        // width: 100%;
+        // height: ;
+        // background-image: url("https://www.brightview.com/sites/default/files/styles/optimized/public/2017-12/Education-Landscape-Services_1.jpg?itok=lFAMTuYV");
+      }
+
+      .videoDesc {
+        width: 40%;
+
+        p {
+          width: 80%;
+          padding: 30px 0px 30px 30px;
+          color: #97a0b1;
+          font-weight: 450;
+          margin: 0;
+          font-size: 14px;
+          text-align: justify;
+          b {
+            font-size: 14px;
+            font-weight: 600;
+          }
+        }
+      }
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        font-weight: 500;
+        font-size: 25px;
+        color: #344767;
+      }
+      .bioPara {
+        width: 100%;
+        padding: 20px 90px 20px 0;
+        color: #97a0b1;
+        font-weight: 450;
+        margin: 0;
+        font-size: 14px;
+        border-radius: 15px;
+        text-align: justify;
+        background-color: red;
+      }
+    }
+  }
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.tabs__buttons {
+  position: relative;
+  z-index: 1;
+  background: #f5f5f5;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.tab-button {
+  font-size: 1rem;
+  font-weight: 500;
+  position: relative;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.54);
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 0;
+  background: transparent;
+  outline: 0;
+}
+
+.tab-button:hover {
+  color: #000;
+  background: #eeeeee;
+}
+
+.tab-button--active {
+  color: #2196f3;
+}
+
+.tab-button--active:hover {
+  color: #2196f3;
+}
+
+.tab-indicator {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s;
+  background: #2196f3;
+}
+
+.tabs__panels {
+  overflow: hidden;
+  width: 100%;
+  background: white;
+}
+
+.tabs__tracker {
+  display: flex;
+  transition: transform 0.3s;
+}
+
+.tabs__panels {
+  min-height: 50px;
+}
+
+.tab-panel {
+  width: 100%;
+  padding: 25px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tab-panel--active {
+  opacity: 1;
+}
+

@@ -1,0 +1,115 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #202022;
+  color: white;
+  height: auto;
+  // padding: 25px;
+  border-radius: 10px;
+  .header {
+    text-align: center;
+    font-size: 22px;
+    padding: 20px 0;
+    .title {
+      color: white;
+      font-weight: 700;
+      .subtitle {
+        font-weight: 400;
+      }
+    }
+  }
+  .sidebarMenuList {
+    background-color: #202022;
+    border-right: none;
+    color: white;
+    .ant-menu-submenu-arrow {
+      color: white;
+    }
+
+    .subMenuList {
+      .userTitle {
+        img {
+        }
+        .userName {
+          padding: 0 10px;
+          color: white;
+        }
+      }
+      .subMenuItem {
+        color: white;
+        display: flex;
+        padding-right: 50px;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+    .sidebarMenuItem {
+      border-radius: 20px;
+      background-color: none;
+
+      &.ant-menu-item-selected {
+        background-color: blue;
+        color: white;
+        border-radius: 20px;
+      }
+    }
+    .ant-menu-item {
+      width: 100%;
+    }
+  }
+  .sidebarMenuList2 {
+    background-color: #202022;
+    border-right: none;
+    // padding-right: 30px;
+    color: white;
+    .ant-menu-submenu-arrow {
+      color: white;
+    }
+
+    .subMenuList2 {
+      .userTitle2 {
+        padding-left: 10px;
+
+        img {
+        }
+        .userName2 {
+          // padding-left: 10px;
+          color: white;
+        }
+      }
+      .subMenuItem2 {
+        color: white;
+        display: flex;
+        padding-right: 80px;
+        flex-direction: column;
+        justify-content: center;
+        &.ant-menu-item-selected2 {
+          background-color: blue;
+          color: white;
+          border-radius: 20px;
+        }
+      }
+    }
+    .sidebarMenuItem2 {
+      border-radius: 20px;
+      background-color: none;
+
+      &.ant-menu-item-selected2 {
+        background-color: blue;
+        color: white;
+        border-radius: 20px;
+      }
+    }
+    .ant-menu-item2 {
+      width: 100%;
+    }
+  }
+
+
+  .divider {
+    background-color: #656569;
+    height: 1pt;
+
+    width: 100%;
+  }
+}

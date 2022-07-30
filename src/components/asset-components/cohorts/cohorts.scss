@@ -1,0 +1,112 @@
+.cohortsWrapper {
+  .InnerWrapper {
+    width: 85%;
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 30px 50px;
+    .searchWrapper {
+      display: flex;
+      justify-content: flex-end;
+      div {
+        border-bottom: 1px solid #f0f2f5;
+        border-width: 2px;
+        input {
+          border-style: none;
+          outline: none;
+        }
+        ::-webkit-input-placeholder {
+          color: #cccccc;
+          font-weight: 500;
+          font-size: 12px;
+        }
+      }
+    }
+    .cohortsListWrapper {
+      display: flex;
+      flex-direction: column;
+      .cohortsList {
+        display: flex;
+        // justify-content: space-between;
+        .cohortsListWrapper {
+          margin: 0 20px;
+          width: 40%;
+          padding: 50px 10px;
+          position: relative;
+          .cohortsAvatar {
+            position: absolute;
+            top: 2%;
+
+            left: 12%;
+            right: 12%;
+          }
+          .cohortsDetail {
+            display: flex;
+            flex-direction: column;
+            width: 98%;
+            border: 1px solid #4d4d50;
+            border-radius: 10px;
+            padding: 10px 25px;
+            // align-items: center;
+            .phone {
+              font-weight: 500;
+              color: #2b2b2e;
+              font-size: 11px;
+              padding-top: 30px;
+            }
+            .label {
+              font-weight: bold;
+              color: #2b2b2e;
+              text-align: right;
+              // padding-right: 8px;
+              //   padding-left: 70px;
+            }
+            .hideBtn {
+              margin: 20px auto  auto;
+
+              button {
+                border-style: none;
+                border: 1px solid #27272a;
+                border-width: 2px;
+                font-weight: 500;
+                font-size: 11px;
+                padding: 0px 13px;
+                border-radius: 14px;
+                background-color: transparent;
+              }
+            }
+            .hideBtn2 {
+              margin:  auto 10px auto;
+
+              button {
+                border-style: none;
+                border: 1px solid #27272a;
+                border-width: 2px;
+                font-weight: 500;
+                font-size: 11px;
+                padding: 0px 13px;
+                border-radius: 14px;
+                background-color: transparent;
+              }
+            }
+            .Btn1 {
+              // margin: 20px auto  auto;
+              justify-content: flex-end;
+              margin-left: auto;
+            
+            }
+          }
+        }
+      }
+      .loadMore {
+        display: flex;
+        justify-content: center;
+        span {
+          text-align: center;
+          font-size: 11px;
+          font-weight: bolder;
+        }
+      }
+    }
+  }
+}

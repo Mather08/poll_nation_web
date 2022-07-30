@@ -1,0 +1,417 @@
+.profileWrapper {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: space-between;
+
+  .profileLinks {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+
+    align-self: flex-start;
+    border-radius: 11px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    .profileLinksWrapper {
+      display: flex;
+      align-items: center;
+      padding: 15px 20px;
+      .linkName {
+        padding: 0 10px;
+        font-weight: 500;
+        font-size: 12px;
+      }
+    }
+  }
+  .profileEdit {
+    width: 75%;
+    .profilePicWrapper {
+      display: flex;
+      justify-content: space-between;
+      border-radius: 11px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      padding: 20px;
+      align-items: center;
+      margin-bottom: 20px;
+      .profilePicName {
+        display: flex;
+        align-items: center;
+        .profileName {
+          padding: 0 10px;
+          font-weight: bold;
+          color: #344767;
+          b {
+            font-size: 11px;
+            // font-weight: ;
+            color: #808080;
+          }
+        }
+      }
+      .profileLockWrapper {
+        .currentLogin {
+          color: #808080;
+          font-weight: 400;
+          font-size: 11px;
+          padding: 0 20px;
+        }
+        .currentUnlockIcon {
+          padding: 0 10px;
+        }
+      }
+    }
+    .profileBasicWrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-radius: 11px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      padding: 20px;
+      // align-items: center;
+      margin-bottom: 20px;
+      .basicLabel {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .profilePicName {
+          display: flex;
+          align-items: center;
+          .profileName {
+            padding: 0 10px;
+            font-weight: bold;
+            color: #344767;
+            b {
+              font-size: 11px;
+              // font-weight: ;
+              color: #808080;
+            }
+          }
+        }
+        .profileLockWrapper {
+          .currentLogin {
+            color: #808080;
+            font-weight: 400;
+            font-size: 11px;
+            padding: 0 20px;
+          }
+          .currentUnlockIcon {
+            padding: 0 10px;
+          }
+        }
+      }
+      .passwordWrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .profilePicName {
+          display: flex;
+          align-items: center;
+          .profileName {
+            padding: 0 10px;
+            font-weight: bold;
+            color: #344767;
+            b {
+              font-size: 11px;
+              // font-weight: ;
+              color: #808080;
+            }
+          }
+        }
+        .profileLockWrapper {
+          .currentLogin {
+            color: #808080;
+            font-weight: 400;
+            font-size: 11px;
+            padding: 0 20px;
+          }
+          .currentUnlockIcon {
+            padding: 0 10px;
+          }
+        }
+      }
+      .basicInfoFields {
+        display: flex;
+        flex-direction: column;
+        .profileFields1 {
+          display: flex;
+          justify-content: space-between;
+          padding: 10px 10px;
+
+          div {
+            display: flex;
+            flex-direction: column;
+            width: 49%;
+            span {
+              color: #808080;
+              font-weight: 500;
+              font-size: 11px;
+            }
+            input {
+              border-style: none;
+              outline: none;
+              border-bottom: 1px solid #cccccc;
+              width: 100%;
+            }
+            ::-webkit-input-placeholder {
+              color: #cccccc;
+              font-weight: 500;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+    .profileChangePassword {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-radius: 11px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      padding: 20px;
+      // align-items: center;
+      margin-bottom: 20px;
+      .basicLabel {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .profilePicName {
+          display: flex;
+          align-items: center;
+          .profileName {
+            padding: 0 10px;
+            font-weight: bold;
+            color: #344767;
+            b {
+              font-size: 11px;
+              // font-weight: ;
+              color: #808080;
+            }
+          }
+        }
+        .profileLockWrapper {
+          .currentLogin {
+            color: #808080;
+            font-weight: 400;
+            font-size: 11px;
+            padding: 0 20px;
+          }
+          .currentUnlockIcon {
+            padding: 0 10px;
+          }
+        }
+      }
+      .passwordWrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .profilePicName {
+          display: flex;
+          flex-direction: column;
+          // align-items: center;
+          .profileName {
+            padding: 0 10px;
+            font-weight: 500;
+            color: #344767;
+            font-size: 13px;
+            // b {
+            //   font-size: 11px;
+            //   // font-weight: ;
+            //   color: #808080;
+            // }
+          }
+          .guide {
+            padding: 0 10px;
+            font-size: 13px;
+            font-weight: 400;
+            color: #999999;
+          }
+          ul {
+            font-weight: 500;
+            color: #999999;
+            font-size: 10px;
+            padding: 0 30px;
+          }
+        }
+        .updatePasswordWrapper {
+          align-self: flex-end;
+          button {
+            border-style: none;
+            outline: none;
+            background-color: #27272a;
+            color: white;
+            padding: 5px 6px;
+            font-size: 9px;
+            font-weight: 500;
+            border-radius: 7px;
+          }
+        }
+      }
+      .basicInfoFields {
+        display: flex;
+        flex-direction: column;
+        .profileFields1 {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          padding: 10px 10px;
+
+          div {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 10px 0;
+            span {
+              color: #808080;
+              font-weight: 500;
+              font-size: 11px;
+            }
+            input {
+              border-style: none;
+              outline: none;
+              border: 1px solid #cccccc;
+              border-radius: 6px;
+              padding: 7px;
+              width: 100%;
+            }
+            ::-webkit-input-placeholder {
+              color: #cccccc;
+              font-weight: 500;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+    .profileAccounts {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-radius: 11px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      padding: 20px;
+      // align-items: center;
+      margin-bottom: 20px;
+      .basicLabel {
+        display: flex;
+        justify-content: space-between;
+
+        width: 100%;
+
+        .profilePicName {
+          display: flex;
+          // align-items: center;
+          flex-direction: column;
+          .profileName {
+            padding: 0 10px;
+            font-weight: bold;
+            color: #344767;
+          }
+          .iconList {
+            padding: 0 10px;
+            font-weight: 500;
+            font-size: 11px;
+            color: #999999;
+          }
+        }
+        .profileLockWrapper {
+          .currentLogin {
+            color: #808080;
+            font-weight: 400;
+            font-size: 11px;
+            padding: 0 20px;
+          }
+          .currentUnlockIcon {
+            padding: 0 10px;
+          }
+        }
+      }
+      .passwordWrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .profilePicName {
+          display: flex;
+          flex-direction: column;
+          // align-items: center;
+          .profileName {
+            padding: 0 10px;
+            font-weight: 500;
+            color: #344767;
+            font-size: 13px;
+            // b {
+            //   font-size: 11px;
+            //   // font-weight: ;
+            //   color: #808080;
+            // }
+          }
+          .guide {
+            padding: 0 10px;
+            font-size: 13px;
+            font-weight: 400;
+            color: #999999;
+          }
+          ul {
+            font-weight: 500;
+            color: #999999;
+            font-size: 10px;
+            padding: 0 30px;
+          }
+        }
+        .updatePasswordWrapper {
+          align-self: flex-end;
+          button {
+            border-style: none;
+            outline: none;
+            background-color: #27272a;
+            color: white;
+            padding: 5px 6px;
+            font-size: 9px;
+            font-weight: 500;
+            border-radius: 7px;
+          }
+        }
+      }
+      .basicInfoFields {
+        display: flex;
+        flex-direction: column;
+        .profileFields1 {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          padding: 10px 10px;
+
+          div {
+            display: flex;
+            // flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 10px 0;
+            .socialLabel {
+              color: #7f8b9f;
+              font-weight: 500;
+              font-size: 14px;
+              padding: 0 15px;
+            }
+            input {
+              border-style: none;
+              outline: none;
+              border: 1px solid #cccccc;
+              border-radius: 6px;
+              padding: 7px;
+              width: 100%;
+            }
+            ::-webkit-input-placeholder {
+              color: #cccccc;
+              font-weight: 500;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
